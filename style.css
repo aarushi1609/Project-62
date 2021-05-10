@@ -1,0 +1,50 @@
+.container {
+    text-align: center;
+    background-color: deeppink;
+    font-family: 'Original Surfer', cursive;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.line {
+    background-color: cornflowerblue;
+    width: 600px;
+    height: 20px;
+    align-content: center;
+    margin: 25px auto;
+}
+
+.menu {
+    z-index: 10;
+    list-style: none;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.links {
+    display: inline;
+    padding: 20px;
+    color: cornflowerblue;
+    font-size: 25px;
+}
+
+.home{
+    width: 300px;
+    height:400px;
+}
+
+.grid-image{
+    width: 200px;
+    height: 200px;
+}
+
+p{
+    font-size: 20px;
+}
+
+.item, .item-active{
+    text-align: center;
+}

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Photo Gallery </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Original+Surfer&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"> </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js">
+    </script>
+</head>
+
+<body>
+    <div class="container">
+        <center>
+            <ul class="menu">
+                <li class="links"> <a href="#home"> Home </a></li>
+                <li class="links"> <a href="#grid">Grid View</a></li>
+                <li class="links"><a href="#slide-view"> Slideshow View </a> </li>
+            </ul>
+        </center>
+
+        <div id="home">
+            <h1> Home </h1>
+            <div class="line"></div>
+            <br>
+            <img class="home" src="Ariana_Grande_Grammys_Red_Carpet_2020.png">
+        </div>
+
+        <div id="grid">
+            <br> <br>
+            <h1> Grid View</h1>
+            <div class="line"></div>
+            <br>
+            <div class="row">
+                <img class="grid-image" src="download.jpg">
+                <img class="grid-image" src="download%20(1).jpg">
+                <img class="grid-image" src="download%20(2).jpg">
+                <br> <br> <br>
+            </div>
+            <div class="row">
+                <img class="grid-image" src="download%20(3).jpg">
+                <img class="grid-image" src="download%20(4).jpg">
+                <img class="grid-image" src="download%20(5).jpg">
+            </div>
+        </div>
+
+        <div id="slide-view">
+            <h1> Slideshow </h1>
+            <div class="line"></div>
+            <br> <br>
+            <div class="carousel slide" data-ride="carousel" id="slideshow-div">
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <center>
+                            <img src="download.jpg">
+                            <div class="carousel-content">
+                                <p> Positions </p>
+                            </div>
+                        </center>
+                    </div>
+                    <br> <br>
+                    <div class="item">
+                        <center>
+                            <img src="download%20(1).jpg">
+                            <div class="carousel-content">
+                                <p> Thank u, Next </p>
+                            </div>
+                        </center>
+                    </div>
+                    
+                    <div class="item">
+                        <center>
+                            <img src= "download%20(2).jpg">
+                            <div class="carousel-content">
+                                <p> Sweetner </p>
+                            </div>
+                        </center>
+                    </div>
+                    
+                    <div class="item">
+                        <center>
+                            <img src="download%20(3).jpg">
+                            <div class="carousel-content">
+                                <p> Dangerous Woman </p>
+                            </div>
+                        </center>
+                    </div>
+                    
+                    <div class="item">
+                        <center>
+                            <img src="download%20(4).jpg">
+                            <div class="carousel-content">
+                                <p> My Everything </p>
+                            </div>
+                        </center>
+                    </div>
+                    
+                    <div class="item">
+                        <center>
+                            <img src="download%20(5).jpg">
+                            <div class="carousel-content">
+                                <p> Yours Truly </p>
+                            </div>
+                        </center>
+                    </div>
+                    
+                </div>
+                <a class="left carousel-control" href="#slideshow-div" data-slide="prev">
+                    <span class=" glyphicon glyphicon-chevron-left"></span></a>
+                <a class="right carousel-control" href="#slideshow-div" data-slide="next">
+                    <span class=" glyphicon glyphicon-chevron-right"></span>
+                </a>
+            </div>
+        </div>
+
+
+    </div>
+
+</body></html>
