@@ -31,20 +31,16 @@ html {
     font-size: 25px;
 }
 
-.home{
+.home {
     width: 300px;
-    height:400px;
+    height: 400px;
 }
 
-.grid-image{
+.grid-image {
     width: 200px;
     height: 200px;
 }
 
-p{
+p {
     font-size: 20px;
-}
-
-.item, .item-active{
-    text-align: center;
 }
